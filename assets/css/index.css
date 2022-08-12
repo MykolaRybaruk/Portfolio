@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Open+Sans:wght@500;700&family=Shadows+Into+Light&family=Teko&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,600;0,700;1,300;1,400;1,600;1,700&family=Open+Sans:wght@500;700&family=Roboto:wght@100;300;400;700&family=Shadows+Into+Light&family=Teko&display=swap');
+
+:root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.main-inner {
+    display: flex;
+    justify-content: space-around;
+    background-image: url(../images/bkg.jpg);
+    background-size: 100%;
+    background-position: 10%;
+    background-repeat: repeat-y;
+}
+
+.person-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 155px;
+    height: 155px;
+}
+
+.profile-photo {
+    border-radius: 80px;
+}
+
+.position-title {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.addition-skill {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}

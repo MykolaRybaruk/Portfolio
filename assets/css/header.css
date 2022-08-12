@@ -27,9 +27,10 @@ header {
     background-color: black;
     display: flex;
 }
+
 .header-inner {
     width: 100%;
-    max-width: 1280px;
+    max-width: 1200px;
     display: flex;
 }
 
@@ -62,8 +63,19 @@ header {
     align-items: center;
 }
 
+.link-tablet-desktop {
+    display: none;
+}
+
 .menu-link {
-    margin: 10px 10px;
+    margin: 0px 10px;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.menu-bio {
+    margin: 0px 10px;
     color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
@@ -76,7 +88,106 @@ header {
     width: 45%;
 }
 
+.social-facebok {
+    display: none;
+}
+
 .social-icons {
     width: 37px;
     height: 37px;
+}
+
+
+h1 {
+    margin-top: 60px;
+    color: black;
+}
+
+@media (min-width: 681px) {
+
+    header {
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        display: center;
+    }
+    
+    .header-inner {
+        margin: auto;
+        width: 100%;
+        display: flex;
+    }
+
+    .name-box {
+        margin: auto;
+        display: flex;
+        width: 20%;
+        height: 50px;
+        margin-left: 0;
+    }
+    
+    .name-paragraph {
+        margin: auto;
+    }
+
+    .menu-social {
+        width: 80%;
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .menu-box {
+        width: 70%;
+        max-width: 480px;
+        display: flex;
+    }
+       
+    .link-tablet-desktop {
+        display: flex;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+
+    .social-box {
+        width: 30%;
+        max-width: 180px;
+    }
+
+    .social-icons {
+        width: 25px;
+        height: 25px;
+    }
+
+    .social-facebok {
+        display: flex;
+        width: 25px;
+        height: 25px;
+    }
+
+    .menu-bio {
+        margin-left: 0  px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+    }
+}
+
+@media (min-width: 769px) {
+
+    header {
+        width: 100%;
+        height: 50px;
+        background-color: black;
+        display: flex;
+    }
+    
+    .header-inner {
+        width: 100%;
+        max-width: 1200px;
+        display: flex;
+    }
+
 }
