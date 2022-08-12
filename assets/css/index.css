@@ -21,13 +21,24 @@ img {
     height: auto;
 }
 
-.main-inner {
-    display: flex;
-    justify-content: space-around;
+main {
     background-image: url(../images/bkg.jpg);
     background-size: 100%;
     background-position: 10%;
     background-repeat: repeat-y;
+}
+
+.main-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.person-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .person-image {
@@ -41,7 +52,14 @@ img {
     border-radius: 80px;
 }
 
-.position-title {
+.master-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 16px;
@@ -49,8 +67,129 @@ img {
     margin-bottom: 10px;
 }
 
-.addition-skill {
+h1 {
+    margin-top: 0;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+/* Tabs */
+
+.works-skills {
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+}
+
+.works-tab {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+}
+
+.works-tab::after {
+    margin-top: 10px;
+    display: block;
+    content: " ";
+    background-color: #FFC22B;
+    width: 100px;
+    height: 3px;
+    border-radius: 2px;
+}
+
+.skills-tab {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.skills-tab::after {
+    margin-top: 10px;
+    display: none;
+    content: " ";
+    background-color: #FFC22B;
+    width: 85px;
+    height: 3px;
+    border-radius: 2px;
+}
+
+/* Works Tab */
+
+.works-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.work1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-name {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-weight: normal;
+}
+
+.project-link {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project-picture {
+    margin-top: 30px;
+    width: 90%;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+
+/* Buttons block */
+
+.project-buttons {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 60px;
+}
+
+/* View more button */
+
+.view-more {
+    display: flex;
+    width: 160px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.more-button {
+    margin: auto;
+    color:#fff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+/* Check code button */
+
+.check-code {
+    display: flex;
+    width: 160px;
+    height: 35px;
+    border: 1px solid #fff;
+    border-radius: 2px;
+}
+
+.check-button {
+    margin: auto;
+    color: #fff;
+    font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
