@@ -74,57 +74,50 @@ h1 {
     font-weight: 300;
 }
 
+
 /* Tabs */
 
 .works-skills {
-    margin-top: 45px;
+    margin-top: 20px;
     display: flex;
     justify-content: space-between;
     width: 60%;
 }
 
-.works-tab {
+.tab-nav-btn {
+    height: 50px;
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 20px;
+    background-color: transparent;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 3px solid transparent;
 }
 
-.works-tab::after {
-    margin-top: 10px;
-    display: block;
-    content: " ";
-    background-color: #FFC22B;
-    width: 100px;
-    height: 3px;
-    border-radius: 2px;
+
+.tab-nav-btn.active {
+    border-bottom: 3px solid #FFC22B;
+    border-radius: 1px;
+
 }
 
-.skills-tab {
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 20px;
-    margin-bottom: 70px;
-}
-
-.skills-tab::after {
-    margin-top: 10px;
+.tab-content {
     display: none;
-    content: " ";
-    background-color: #FFC22B;
-    width: 85px;
-    height: 3px;
-    border-radius: 2px;
 }
 
-/* Works Tab */
-
-.works-block {
+.tab-content.active {
     display: flex;
     flex-direction: column;
-    align-items: center;
+    justify-content: center;
+    width: 90%;
 }
 
+/* Projects tab */
+
 .work1 {
+    margin-top: 55px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -171,7 +164,7 @@ h1 {
 
 .more-button {
     margin: auto;
-    color:#fff;
+    color: #fff;
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
@@ -192,6 +185,98 @@ h1 {
     font-family: 'Roboto', sans-serif;
     font-size: 14px;
 }
+
+
+
+
+/* My skills tab */
+    .skill {
+        margin-top: 60px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .skill-icons {
+        width: 160px;
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .react-icon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .school {
+        margin-top: 25px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+    .direction {
+        margin-top: 15px;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    .learning-time {
+        margin-top: 15px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+
+    .certificate-block {
+        margin-top: 15px;
+        width: 80%;
+    }
+
+    .certificate {
+        border-radius: 5px;
+    }
+
+    .description-block {
+        width: 80%;
+    }
+
+    .description {
+        margin-top: 15px;
+        color: #fff;
+        font-family: 'Roboto', sans-serif;
+        font-size: 14px;
+        line-height: 2;
+        margin-bottom: 50px;
+    }
+
+
+
+
+        /* Technologies */
+    
+        .technologies {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    
+        .i-use {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 20px;
+            color: #fff;
+    
+        }
+
+
+
+
+
+
+
+
 
 /* The email form */
 
