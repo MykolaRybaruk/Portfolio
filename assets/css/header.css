@@ -145,6 +145,11 @@ h1 {
         max-width: 480px;
         display: flex;
     }
+
+    #menuItem:hover {
+        color: #FFC701;
+        transition: 0.1s;
+    }
        
     .link-tablet-desktop {
         display: flex;

@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/header.css">
     <link rel="stylesheet" type="text/css" href="assets/css/index.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/tabs.css">
     <link rel="stylesheet" type="text/css" href="assets/css/footer.css">
     <title>Mykola Rybaruk</title>
 </head>
@@ -18,10 +19,10 @@
 
             <div class="menu-social">
                 <div class="menu-box">
-                    <a href="#" class="link-tablet-desktop">My Works</a>
-                    <a href="#" class="link-tablet-desktop">My Skills</a>
-                    <a href="#" class="menu-link">Contacts</a>
-                    <a href="#" class="menu-bio">BIO</a>
+                    <a id="menuItem" href="#" class="link-tablet-desktop">Home</a>
+                    <a id="menuItem" href="#" class="link-tablet-desktop">My Career</a>
+                    <a id="menuItem" href="#" class="menu-link">Contacts</a>
+                    <a id="menuItem" href="#" class="menu-bio">BIO</a>
                 </div>
                 <div class="social-box">
                     <div class="social-facebok">
@@ -67,15 +68,23 @@
                 <button class="tab-nav-btn" type="button" data-tab="#tab-2">My Skills</button>
             </div>
 
+            <!-- My Works divisioner -->
+
+
+            <div class="myWorksDivisioner">
+                <p class="worksText">My works</p>
+                <div class="workTextUnderline"></div>
+            </div>
+
             <!-- Works Tab -->
 
             <div class="tab-content" id="tab-1">
-                <div class="work">
+                <div class="work"> <!-- Work1 -->
                     <p class="project-name">The Wood Makers Store</p>
                     <a class="project-link" href="https://mykolarybaruk.github.io/Wood-Makers/" target="_blank">
                         <img class="project-picture" src="./assets/images/WoodMakers.png" alt="The Wood Makers Store">
                     </a>
-                    <p class="projectDesktopName">The Wood Makers Store</p>
+                    <a href="https://mykolarybaruk.github.io/Wood-Makers/" class="projectDesktopName">The Wood Makers Store</a>
                     <p class="projectDescription">This is the online store, created on pure HTML/CSS/JavaScript</p>
 
                     <div class="project-buttons">
@@ -88,13 +97,31 @@
                     </div>
                 </div>
 
-                <div class="work">
+                <div class="work"> <!-- Work2 -->
                     <p class="project-name">Beer Butique</p>
                     <a class="project-link" href="https://mykolarybaruk.github.io/Wood-Makers/" target="_blank">
                         <img class="project-picture" src="./assets/images/beerButique.jpg" alt="The Beer Butque">
                     </a>
-                    <p class="projectDesktopName">Beer Butique</p>
+                    <a href="https://mykolarybaruk.github.io/Wood-Makers/" class="projectDesktopName">Beer Butique</a>
                     <p class="projectDescription">This website was created on React to make work with blog more </p>
+
+                    <div class="project-buttons">
+                        <div class="view-more">
+                            <a class="more-button" href="https://mykolarybaruk.github.io/Wood-Makers/" target="_blank">View more</a>
+                        </div>
+                        <div class="check-code">
+                            <a class="check-button" href="https://github.com/MykolaRybaruk/Wood-Makers" target="_blank">Check code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="work"> <!-- Work3 -->
+                    <p class="project-name">Social Network</p>
+                    <a class="project-link" href="#" target="_blank">
+                        <img class="project-picture" src="./assets/images/social.jpg" alt="The social network">
+                    </a>
+                    <a href="#" class="projectDesktopName">Social Network</a>
+                    <p class="projectDescription">I am working on this project right now</p>
 
                     <div class="project-buttons">
                         <div class="view-more">
