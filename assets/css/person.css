@@ -38,11 +38,28 @@ h1 {
     border-radius: 80px;
 }
 
-.iAm {
+
+.currently {
     display: none;
 }
 
-.currently {
+.iAm {
+    display: flex;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.yellowLetter::first-letter {
+    color: #FFC22B;
+}
+
+.yellowLetter {
+    margin-left: 0.5rem;
+}
+
+.h1 {
     display: none;
 }
 
@@ -67,36 +84,6 @@ h1 {
 
     .master-skills {
         display: block;
-    }
-
-    .iAm {
-        display: flex;
-        color: #fff;
-        font-family: 'Montserrat', sans-serif;
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
-
-    .yellowLetter {
-        margin-left: 0.5rem;
-    }
-
-    .yellowLetter::first-letter {
-        color: #FFC22B;
-    }
-
-    .frontend{
-        display: none;
-    }
-
-    .currently {
-        display: flex;
-        font-size: 30px;
-        margin-bottom: 15px;
-    }
-
-    .h1 {
-        display: none;
     }
 
     .socialLink {
