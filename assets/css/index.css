@@ -33,26 +33,3 @@ main {
     justify-content: space-around;
     align-items: center;
 }
-
-.master-skills {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-h2 {
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-h1 {
-    margin-top: 0;
-    color: #fff;
-    font-family: 'Montserrat', sans-serif;
-    font-size: 14px;
-    font-weight: 300;
-}
