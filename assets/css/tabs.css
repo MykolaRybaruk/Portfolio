@@ -245,6 +245,55 @@
         margin-bottom: 50px;
     }
 
+    .additionalKnowledge {
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+
+    .alsoText {
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 20px;
+        margin-bottom: 15px;
+    }
+
+    .alsoUnderline {
+        width: 100%;
+        height: 2px;
+        background-color: #FFC22B;
+        margin-bottom: 15px;
+    }
+
+    .knowledgeWrapper {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        margin-bottom: 50px;
+    }
+
+    .knowledge{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .knowledgeIcon {
+        width: 42px;
+        height: 42px;
+    }
+
+    .knowledgeDescrition {
+        margin-top: 15px;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+
 
 
 
@@ -272,7 +321,7 @@
     color: #fff;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .workTextUnderline {
@@ -287,7 +336,7 @@
         grid-template-columns: 1fr 1fr;
         grid-gap: 10px;
         width: 70%;
-        margin-bottom: 120px;
+        margin-bottom: 80px;
     }
 
     .projectDesktopName {
@@ -354,6 +403,82 @@
             transition: 0.4s;
         }
 
+    /* Skills block */
+    
+    #tab-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px;
+        width: 70%;
+        margin-bottom: 120px;
+    }
+
+
+    .skill-icons:hover {
+        transform: scale(1.2, 1.2);
+        transition: 0.8s;
+    }
+
+    .school:hover {
+        color: #FFC22B;
+        transition: 0.8s;
+    }
+
+    .direction {
+        display: flex;
+        justify-content: center;
+        width: 270px;
+    }
+
+    .direction:hover {
+        color: #FFC22B;
+        transition: 0.8s;
+        transform: scale(1.2, 1.2);
+    }
+
+    .certificate:hover {
+        transform: scale(1.2, 1.2);
+        transition: 0.3s;
+    }
+
+
+/* Tools Block */
+
+    .technologies {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        height: 230px;
+        background: rgba(128, 135, 130, 0.17);
+        margin-bottom: 80px;
+    }
+
+    .i-use {
+        display: none;
+    }
+
+    #technoligiesText {
+        margin-bottom: 50px;
+    }
+
+
+    #technologiesUnderline {
+        display: none;
+    }
+
+    .app-descriprion {
+        min-width: 150px;
+        text-align: center;
+        margin-bottom: 0;
+    }
+
+    .knowledge:hover {
+        transform: translate(-10px, -10px);
+        transition: 0.3s;
+    }
+
+
 }
 
 @media (min-width: 961px) {
@@ -361,5 +486,13 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-gap: 10px;
+    }
+
+    #tab-2 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-gap: 10px;
+        width: 70%;
+        margin-bottom: 120px;
     }
 }
