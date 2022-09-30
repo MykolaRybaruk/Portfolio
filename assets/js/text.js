@@ -67,7 +67,7 @@ const phrases = [
   "Problem Solver",
   "Freelancer",
   "Coffeeholic",
-  "want to work together?",
+  "...want to work together?",
   "contact me",
   "m.rybaruk@gmail.com",
 ];
