@@ -16,6 +16,10 @@ main {
 }
 
 .contacts-inner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 50px;
 }
 
@@ -25,6 +29,7 @@ main {
     justify-content: center;
     align-items: center;
     color: #fff;
+    text-align: center;
 
 }
 
@@ -55,6 +60,7 @@ h1::first-letter {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
     color: #fff;
+    text-align: center;
 }
 
 

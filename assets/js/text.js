@@ -62,9 +62,15 @@ class TextScramble {
 
 const phrases = [
   "Front End Developer",
-  "REACT developer",
+  "React.JS developer",
   "Software Developer",
   "Problem Solver",
+  "WordPress Developer",
+  "OpenCart Developer",
+  "Web Developer",
+  "JavaScript Developer",
+  "PHP Developer",
+  "WebFlow Developer",
   "Freelancer",
   "Coffeeholic",
   "m.rybaruk@gmail.com",
